@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS customer_output (
+    id BIGINT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    city VARCHAR(100) NOT NULL
+);
+

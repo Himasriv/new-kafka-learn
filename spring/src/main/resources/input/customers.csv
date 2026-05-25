@@ -1,0 +1,8 @@
+id,name,email,city
+1,alice johnson,ALICE@EXAMPLE.COM,new york
+2,bob smith, Bob.Smith@Example.com ,seattle
+3,charlie brown,CHARLIE@EXAMPLE.COM,chicago
+4,diana prince,diana.prince@example.com,boston
+5,ethan hunt,ETHAN.HUNT@EXAMPLE.COM,san francisco
+6,broken user,not-an-email,dallas
+

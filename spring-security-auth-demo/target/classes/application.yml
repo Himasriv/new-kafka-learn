@@ -1,0 +1,23 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:authdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+app:
+  jwt:
+    # 256-bit base64 key for HS256
+    secret: dGhpc0lzQVNlY3VyZUFuZFN1ZmZpY2llbnRseUxvbmdLZXlGb3JEZW1vMTIzNDU2
+
